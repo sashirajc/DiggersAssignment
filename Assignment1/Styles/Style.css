@@ -17,17 +17,17 @@
 	background-color: rgba(0,0,0,0.7);
 }
 .footer {
-	position: relative;
 	height: 30px;
+	width: 900px;
+	left: 150px;
+	right: 200px;
+	position: relative;
 	background-color: #000;
+	padding-top:10px;
 	font-family: "MS Serif", "New York", serif;
 	font-size: 14px;
 	color: #FFF;
-	text-align: center;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
+	text-align:center;
 }
 .header{
 	width: 900px;
@@ -48,8 +48,7 @@
 	text-transform: capitalize;
 	color: #FFF;
 	text-align: center;
-	top: 10px;
-	padding-top: 15px;
+	top: 7px;
 }
 
 #Insert_logo {
@@ -65,9 +64,20 @@ ul {
 }
 
 li {
-    display: inline;
+    float:left;
 }
 .editregion {
 	height: 588px;
 	width: 900px;
+}
+a:link,a:visited{
+	display:block;
+	width:120px;
+	font-weight:bold;
+	color:white;
+	background-color:#903;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:capitalize;
 }
