@@ -11,17 +11,17 @@
 <body>
 <div class="container">
 <div class="textcontainer">
- <div class="header"><a href="index.html"><img src="../Images/Diggers_logo1.jpg" name="Insert_logo" id="Insert_logo" /></a>
+ <div class="header"><a href="../Webpages/index.html"><img src="../Images/Diggers_logo1.jpg" name="Insert_logo" id="Insert_logo" /></a>
 <h2 class="heading">Digger's Beach Volleyball</h2></div>
 <div class="navbar">
   <ul id="MenuBar1" class="MenuBarHorizontal">
-    <li><a class="Menu" href="#">Home</a></li>
-    <li><a class="Menu" href="#">Facilities</a></li>
-    <li><a class="Menu" href="#">Tournament</a></li>
-    <li><a class="Menu" href="#">Signup</a></li>
-    <li><a class="Menu" href="#">Announcements</a></li>
-    <li><a class="Menu" href="#">Contact Us</a></li>
-    <li><a class="Menu" href="#">About Us</a></li>
+    <li><a class="Menu" href="../Webpages/index.html">Home</a></li>
+    <li><a class="Menu" href="../Webpages/facilities.html">Facilities</a></li>
+    <li><a class="Menu" href="../Webpages/tournament.html">Tournament</a></li>
+    <li><a class="Menu" href="../Webpages/signup.html">Signup</a></li>
+    <li><a class="Menu" href="../Webpages/announcements.html">Announcements</a></li>
+    <li><a class="Menu" href="../Webpages/contact.html">Contact Us</a></li>
+    <li><a class="Menu" href="../Webpages/about.html">About Us</a></li>
     
   </ul>
 </div>
