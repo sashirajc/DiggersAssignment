@@ -63,10 +63,16 @@
     padding: 0;
 }
 
-li {
+.MenuList {
     float:left;
 }
 
+#guideline{
+	text-align: center;
+	font-style: italic;
+	color:white;
+	text-decoration: underline;
+}
 h2{
 	text-align:center;
 }
@@ -81,7 +87,7 @@ h2{
 	padding-right:20px;
 	padding-bottom:20px;
 }
-a:link, a:visited{
+.Menu{
 	display:block;
 	width:135px;
 	font-weight:bold;
