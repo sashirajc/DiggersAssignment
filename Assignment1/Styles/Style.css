@@ -57,7 +57,7 @@
 	width: 180px;
 }
 
-ul {
+#MenuBar1 {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -66,9 +66,20 @@ ul {
 li {
     float:left;
 }
+
+h2{
+	text-align:center;
+}
 .editregion {
 	height: 588px;
 	width: 900px;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	color:#FFF;
+	line-height:30px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
 }
 a:link, a:visited{
 	display:block;
