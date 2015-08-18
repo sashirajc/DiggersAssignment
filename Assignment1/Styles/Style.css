@@ -10,7 +10,7 @@
 
 .textcontainer{
 	height: 750px;
-	width: 900px;
+	width: 1002px;
 	left: 150px;
 	right: 200px;
 	position: relative;
@@ -18,7 +18,7 @@
 }
 .footer {
 	height: 30px;
-	width: 900px;
+	width: 1002px;
 	left: 150px;
 	right: 200px;
 	position: relative;
@@ -30,13 +30,13 @@
 	text-align:center;
 }
 .header{
-	width: 900px;
+	width: 1002px;
 	height: 100px;
 	float: left;
 	background-color: #000;
 	}
 .navbar {
-	width:900px;
+	width:1002px;
 	height:30px;
 	float:left;
 }
@@ -72,12 +72,11 @@ li {
 }
 a:link,a:visited{
 	display:block;
-	width:120px;
+	width:135px;
 	font-weight:bold;
 	color:white;
 	background-color:#903;
 	text-align:center;
 	padding:4px;
 	text-decoration:none;
-	text-transform:capitalize;
 }
