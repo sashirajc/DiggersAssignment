@@ -62,11 +62,30 @@
     margin: 0;
     padding: 0;
 }
-
 .MenuList {
     float:left;
 }
-
+#formtable{
+	width:"745";
+	border:"1";
+}
+.button{
+	padding:10px;
+	}
+#imageindex{
+	float: right;
+	height: 100px;
+	width: 150px;
+}
+#indeximage2{
+	width:800px;
+	height:500px;
+	padding-left:50px;
+	padding-top:10px;
+}
+#flow{
+	overflow:auto;
+}
 #guideline{
 	text-align: center;
 	font-style: italic;

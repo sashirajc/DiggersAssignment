@@ -28,48 +28,54 @@
 <!-- InstanceBeginEditable name="EditRegion1" -->
 <div class="editregion"><p>To signup for a Digger's membership kindly fill the form below</p>
   <form id="form1" name="form1" method="post" action="">
-    <table width="745" border="1">
+    <table id="formtable">
       <tr>
         <td width="171"><label class="labels">First Name</label>&nbsp;</td>
         <td width="558"><input type="text" name="FirstName" id="FirstName" /></td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td>Last Name</td>
+        <td><label for="lastname"></label>
+          <input type="text" name="lastname" id="lastname" /></td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td>Gender</td>
+        <td><input type="radio" name="radio" id="Gender" value="Gender" />
+          <label for="Gender">Male
+            <input type="radio" name="radio" id="Gender2" value="Gender" />
+            Female</label></td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td>Address</td>
+        <td><label for="address"></label>
+          <textarea name="address" id="address" cols="45" rows="5"></textarea></td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td>E-mail</td>
+        <td><label for="email"></label>
+          <input type="text" name="email" id="email" /></td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td>Phone number</td>
+        <td><label for="phone"></label>
+          <input type="text" name="phone" id="phone" /></td>
       </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-    </table>
+      </table>
+    <p>
+      <input type="checkbox" name="newsletter" id="newsletter" />
+      <label for="newsletter">I would like to subscribe to the newsletter to get details about discounts</label>
+    </p>
+    <p>
+      <input type="checkbox" name="terms" id="terms" />
+      <label for="terms">I agree to the <a href="playingguidelines.html" id="guideline">terms and conditions</a></label>
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="submit" name="reset" id="reset" value="Submit" class="button"/>&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="submit" name="submit" id="submit" value="Reset" class="button"/>
+    </p>
   </form>
 </div>
 <!-- InstanceEndEditable -->
