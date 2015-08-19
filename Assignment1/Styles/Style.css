@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .container{
-	height: 800px;
+	height: 1000px;
 	width:auto;
 	background-color: #FFF;
 	background-image: url(../Images/sand-shade.jpg);
@@ -9,7 +9,7 @@
 }
 
 .textcontainer{
-	height: 750px;
+	height: 950px;
 	width: 1002px;
 	left: 150px;
 	right: 200px;
@@ -73,11 +73,23 @@
 	color:white;
 	text-decoration: underline;
 }
+#facilitiesList{
+	text-decoration: underline;
+	font-style: italic;
+	color: #FFF;
+}
 h2{
 	text-align:center;
 }
+
+h1{
+	text-align:center;
+	}
+.hometext{
+	font-size: 18px;	
+	}
 .editregion {
-	height: 588px;
+	height: 788px;
 	width: 900px;
 	font:Tahoma, Geneva, sans-serif;
 	font-size:18px;
